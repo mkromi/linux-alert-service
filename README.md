@@ -44,4 +44,4 @@ crontab -e
 The Cron job will run the __alert.sh__ file at specific time of weekdays as given.
 
 ### **License**
-The **linux-alert-service** is an open-source application licensed under the [MIT License](LICENSE.md).
+The **linux-alert-service** is an open-source application licensed under the [MIT License](LICENSE).
