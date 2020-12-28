@@ -26,4 +26,4 @@ read -r description
 echo '{ "full_name": "'$full_name'", "day": "'$day'", "hr": "'$hr'", "min": "'$min'", "description": "'$description'" }' > data.json
 echo
 echo "Excecute 'crontab -e' and add this line"
-echo "$min $hr * * $day /home/your-username/Downloads/linux-alert-service/alert.sh"
+echo "$min $hr * * $day $PWD/linux-alert-service/alert.sh"
