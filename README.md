@@ -27,7 +27,7 @@ Go to __linux-alert-service__ directory
 cd linux-alert-service
 ```
 
-Run __app.sh__ file add your configuration
+Run __app.sh__ file to set alerm
 ```bash
 ./app.sh
 ```
